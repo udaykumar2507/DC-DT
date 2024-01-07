@@ -1,0 +1,11 @@
+#Your code below
+n=list(input())
+l=[int(i)for i in n]
+l.sort()
+flag=False
+for i in l:
+    if (i%2==1):
+        flag=True
+        print(i,end="")
+if (flag==False):
+    print(-1)
