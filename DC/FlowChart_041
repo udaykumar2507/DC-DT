@@ -1,0 +1,22 @@
+import java.util.*;
+public class Hello {
+
+    public static void main(String[] args) {
+		//Your Code Here
+		Scanner sc=new Scanner (System.in);
+		int tot=0;
+		int ctr=1;
+		int currnum;
+		int n=sc.nextInt();
+		while(ctr<=n){
+		    currnum=sc.nextInt();
+		    if (currnum%2==0){
+		        tot=tot+currnum;
+		    }else{
+		        tot=tot-currnum;
+		    }
+		    ctr++;
+		}
+		System.out.print(tot);
+	}
+}
