@@ -1,0 +1,14 @@
+import java.util.*;
+public class Hello {
+
+    public static void main(String[] args) {
+		Scanner sc=new Scanner (System.in);
+		double m=sc.nextDouble();
+		double n=sc.nextDouble();
+		int x=sc.nextInt();
+		double ans=m/n;
+		System.out.printf("%."+x+"f",ans);
+		
+
+	}
+}
