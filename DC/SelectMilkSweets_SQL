@@ -1,0 +1,1 @@
+select id,name,price from sweet where mainingredients like'%milk%' or mainingredients like'%Milk%' order by price asc;
