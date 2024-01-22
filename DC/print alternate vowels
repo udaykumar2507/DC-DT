@@ -1,0 +1,18 @@
+s=input() 
+l=[]
+for I in s:
+    if I in "aeiouAEIOU":
+        l.append(I)
+print(l)
+start=0
+end=len(l)-1
+ans=""
+while start<end:
+    ans+=l[start]
+    ans+=l[end]
+    start+=1
+    end-=1
+print(ans,end="")
+if start==end:
+    print(ans[start])
+    
